@@ -14,6 +14,10 @@ export default function Projects() {
       className="scroll-mt-28 mb-8 max-w-50rem text-center"
     >
       <SectionHeading> My Projects </SectionHeading>
+      <div className="mb-10 text-red-600 ">
+        {" "}
+        You Can See the Full Posts by Clicking on Them{" "}
+      </div>
       <div className="flex flex-col gap-8 ">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
