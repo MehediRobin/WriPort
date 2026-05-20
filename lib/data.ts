@@ -4,11 +4,11 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 import unbImg from "@/public/UNB.png";
-import forexImg from "@/public/trading.png";
 import tecnoImg from "@/public/tecno.png";
 import facetedImg from "@/public/faceted.png";
 import assetImg from "@/public/asset.png";
 import plasticImg from "@/public/plastic.png";
+import batteryImg from "@/public/battery.png";
 
 export const links = [
   {
@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
       "Got onboard with the growing national online newsportal, and been writing feature articles on tech, gadget and gaming topics ever since.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - on going",
+    date: "2022 - 2025",
   },
   {
     title: "Content Writer",
@@ -62,7 +62,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Content Writer",
+    title: "Jr. Content Writer",
     name: "Marketing Doorway",
     location: "Dhaka, Bangladesh",
     description:
@@ -77,8 +77,8 @@ export const experiencesData = [
     location: "Dhaka, Bangladesh",
     description:
       "A milestone in my career, at VISER X, I learned and experienced agency activities being at the center of its creative endeavors.",
-    icon: React.createElement(FaReact),
-    date: "2024-2025",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025-2026",
   },
 ] as const;
 
@@ -87,7 +87,7 @@ export const projectsData = [
     title: "Shopify Filtering and Faceted Navigation SEO Problems",
     description:
       "I went into the technical depth of a common, yet intricate issue faced by ecommerce sites, leading them to lose rank, traffic, and user satisfaction.",
-    tags: ["Ecommerce SEO", "Technical Problem Solving", "Informative Article"],
+    tags: ["Ecommerce SEO", "Problem Solving", "Informative Article"],
     imageUrl: facetedImg,
     link: "https://brandsbro.com/shopify-filtering-and-faceted-navigation-seo-problems/",
   },
@@ -95,7 +95,7 @@ export const projectsData = [
   {
     title: "What is Digital Asset Management? Complete Guide for 2026",
     description:
-      "An article that rediscover the definition and features of a successful digital asset management tool in 2026. It covers each and every aspect of what businesses should opt for when they need an asset management solution.",
+      "An article that rediscovers the definition and features of a successful digital asset management tool in 2026. It covers each and every aspect of what businesses should opt for when they need an asset management solution.",
     tags: ["SaaS Product", "Digital Management", "Info Blog"],
     imageUrl: assetImg,
     link: "https://taskfino.com/blog/digital-asset-management",
@@ -106,7 +106,7 @@ export const projectsData = [
       "How to Choose the Right Plastic Cake Slice Container for Your Needs",
     description:
       "Search by the title and you will find the article coming at the top on SERP. It's a comprehensive buying guide that covers all the aspects of the product and more.",
-    tags: ["Buying Guide", "Ecommerce", ""],
+    tags: ["Buying Guide", "Ecommerce", "USA"],
     imageUrl: plasticImg,
     link: "https://thedoublewave.com/blogs/blog-articles/choose-the-right-plastic-cake-slice-container-for-your-needs?srsltid=AfmBOopOaLpOyf8Y2ZEr4ka_sc8pvM2fmJYRbZ8KucPAczxy0hUE2OBp",
   },
@@ -138,30 +138,25 @@ export const projectsData = [
     link: "https://unb.com.bd/category/Tech/february-2025-video-game-releases-top-titles-you-cant-miss/151328",
   },
   {
-    title: "Forex & Crypto",
+    title: "What’s the Average Lifespan of a Marine Battery?",
     description:
-      "I have written a vast collection of Forex articles describing key features and explaining intiricacies associated with the Forex and Crypto trading market.",
-    tags: [
-      "Website Copy",
-      "Blog Articles",
-      "Long-form Articles",
-      "SEO",
-      "Forex",
-    ],
-    imageUrl: forexImg,
-    link: "https://fxguidepro.com/what-is-margin-trading-how-to-use/",
+      "An article written for Impact Battery, ranking top on the first SERpage in USA.",
+    tags: ["Autoparts", "Ecommerce Blog", "Ranked"],
+    imageUrl: batteryImg,
+    link: "https://www.impactbattery.com/blog/post/whats-the-average-lifespan-of-a-marine-battery?srsltid=AfmBOopS3kYZywqKGPWFnqGRf7VjYLPtmjzv-zx_Eh1rWUJ4tR-ZHQO9",
   },
 ] as const;
 
 export const skillsData = [
-  "Evocative Writing",
+  "Native Writing",
   "SEO",
   "Blog Article",
   "Website Copy",
   "Social Media Posts",
   "Technical Writing",
   "Newsletter Writing",
-  "Wordpress and SEO Plugins",
+  "Storytelling",
+  "WordPress SEO",
   "HTML",
   "CSS",
   "JavaScript",

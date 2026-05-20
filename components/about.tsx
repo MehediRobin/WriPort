@@ -22,19 +22,28 @@ export default function About() {
           >
             I am a writer who knows what you are seeking. You want
             <span className="font-semibold">
-              {" "}in-depth, research-based content
+              {" "}
+              in-depth, research-based content
             </span>{" "}
             that precisely describe your products and services while resonating
             with your clients and customers. You want quality{" "}
-            <span className="font-semibold"> SEO content to draw traffic </span>. You want ROI.
-             <br />{" "}
+            <span className="font-semibold">
+              {" "}
+              SEO content that <b>ranks</b> and <b>draws traffic</b>{" "}
+            </span>
+            .
+            <br />{" "}
           </motion.span>{" "}
           <motion.span
             initial={{ opacity: 0.1, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5 }}
           >
-            I write content that flows like a stream, seeps through minute details of the subject, and reflects on readers revelation. Dedicated to my craft, I am always working on several skills:
+            I write content that flows like a stream, seeps through minute
+            details of the subject, and reflects on readers revelation. Most
+            blogs I write rank on the first page. I switch between multiple
+            tones and bring variations to match intent and brand identity.
+            Dedicated to my craft, I am always working on several skills:
             <span className=" font-semibold">
               {" "}
               The Art of Writing Compelling Content, SEO,{" "}
@@ -60,14 +69,47 @@ export default function About() {
             className=" block list-disc"
           >
             <li>
-              <span className="font-semibold">3+ years</span> of writing experience{" "}
+              <span className="font-semibold">3+ years</span> of writing
+              experience{" "}
             </li>{" "}
-            <li> An inquisitive mind that goes beyond limit while <span className="font-semibold"> researching</span> </li>{" "}
-            <li> A profound <span className="font-semibold"> vocabulary and grammar</span> base, </li>{" "}
-            <li> Writing sentences fine-tuned with diverse <span className="font-semibold">stylistic, rhetoric and syntactical</span> choices </li>{" "}
-            <li> Natural in engraving <span className="font-semibold"> SEO Keywords</span></li>
-            <li> Preaching readers about <span className="font-semibold"> products </span> and their qualities</li>
-            <li> Explaining intricate topic with <span className="font-semibold"> easy to read</span> write-ups</li>
+            <li>
+              {" "}
+              An inquisitive mind that goes beyond limit while{" "}
+              <span className="font-semibold"> researching</span>{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              A profound{" "}
+              <span className="font-semibold">
+                {" "}
+                vocabulary and grammar
+              </span>{" "}
+              base,{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              Writing sentences fine-tuned with diverse{" "}
+              <span className="font-semibold">
+                stylistic, rhetoric and syntactical
+              </span>{" "}
+              choices{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              Natural in engraving{" "}
+              <span className="font-semibold"> SEO Keywords</span>
+            </li>
+            <li>
+              {" "}
+              Preaching readers about{" "}
+              <span className="font-semibold"> products </span> and their
+              qualities
+            </li>
+            <li>
+              {" "}
+              Explaining intricate topic with{" "}
+              <span className="font-semibold"> easy to read</span> write-ups
+            </li>
           </motion.ul>{" "}
         </div>
         <Image

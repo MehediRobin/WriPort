@@ -50,7 +50,7 @@ function Intro() {
         >
           <span className="text-[1.3rem] leading-relaxed tracking-wide ">
             Hi, I am <b>Mehedi</b>, a <i> content writer </i> and a{" "}
-            <i> front-end web developer </i> .
+            <i> web enthusiast. </i> .
           </span>
           <span className="text-[1.3rem] leading-relaxed tracking-wide ">
             If you want{" "}
@@ -108,13 +108,13 @@ function Intro() {
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition " />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/robinmehedi/"
             className=" bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full"
           >
             <BsLinkedin />
           </a>
           <a
-            href=""
+            href="https://www.upwork.com/freelancers/~0179d82b5442e180fe"
             className=" bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-lg"
           >
             <SiUpwork />
