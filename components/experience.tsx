@@ -7,6 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { useSectionInView } from "@/lib/hooks";
 import React from "react";
+import Image from "next/image";
 
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.25);
@@ -34,7 +35,10 @@ function Experience() {
               icon={item.icon}
               iconStyle={{ background: "white", fontSize: "1.5rem" }}
             >
-              <h3 className="text-lg font-bold mb-2">{item.name}</h3>
+              <div className="flex justify-between">
+                <h3 className="text-lg font-bold mb-2">{item.name}</h3>
+                <Image src={item.image} width={110} alt="" />
+              </div>
               <h3> {item.title}</h3>
               <p>{item.location}</p>
               <p>{item.description}</p>

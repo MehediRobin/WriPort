@@ -116,7 +116,7 @@ export default function About() {
           src={Me}
           alt="Mehedi Robin Portfolio"
           width={400}
-          className="left-[55%] -top-[15%] absolute rotate-[35deg] opacity-20"
+          className="left-[55%] -top-[10%] absolute rotate-[35deg] opacity-30"
         />
       </div>
       <div></div>
