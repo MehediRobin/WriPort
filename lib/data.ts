@@ -66,9 +66,19 @@ export const experiencesData = [
     name: "Marketing Doorway",
     location: "Dhaka, Bangladesh",
     description:
-      "Join this tream of professionals providing digital marketing services worldwide, while rearing their own unique projects. I wrote on Golf instruments and strategies.",
+      "Joined this tream of professionals providing digital marketing services worldwide, while rearing their own unique projects. I wrote on Golf instruments and strategies.",
     icon: React.createElement(FaReact),
     date: "2023",
+  },
+
+  {
+    title: "Creative Content Executive",
+    name: "VISER X",
+    location: "Dhaka, Bangladesh",
+    description:
+      "A milestone in my career, at VISER X, I learned and experienced agency activities being at the center of its creative endeavors.",
+    icon: React.createElement(FaReact),
+    date: "2024-2025",
   },
 ] as const;
 
@@ -77,12 +87,7 @@ export const projectsData = [
     title: "Shopify Filtering and Faceted Navigation SEO Problems",
     description:
       "I went into the technical depth of a common, yet intricate issue faced by ecommerce sites, leading them to lose rank, traffic, and user satisfaction.",
-    tags: [
-      "SEO and marketing",
-      "Ecommerce SEO",
-      "Technical Problem Solving",
-      "Informative Article",
-    ],
+    tags: ["Ecommerce SEO", "Technical Problem Solving", "Informative Article"],
     imageUrl: facetedImg,
     link: "https://brandsbro.com/shopify-filtering-and-faceted-navigation-seo-problems/",
   },
@@ -91,9 +96,19 @@ export const projectsData = [
     title: "What is Digital Asset Management? Complete Guide for 2026",
     description:
       "An article that rediscover the definition and features of a successful digital asset management tool in 2026. It covers each and every aspect of what businesses should opt for when they need an asset management solution.",
-    tags: ["SaaS Product", "Digital Office Management", "Tech", "Info Blog"],
+    tags: ["SaaS Product", "Digital Management", "Info Blog"],
     imageUrl: assetImg,
     link: "https://taskfino.com/blog/digital-asset-management",
+  },
+
+  {
+    title:
+      "How to Choose the Right Plastic Cake Slice Container for Your Needs",
+    description:
+      "Search by the title and you will find the article coming at the top on SERP. It's a comprehensive buying guide that covers all the aspects of the product and more.",
+    tags: ["Buying Guide", "Ecommerce", ""],
+    imageUrl: plasticImg,
+    link: "https://thedoublewave.com/blogs/blog-articles/choose-the-right-plastic-cake-slice-container-for-your-needs?srsltid=AfmBOopOaLpOyf8Y2ZEr4ka_sc8pvM2fmJYRbZ8KucPAczxy0hUE2OBp",
   },
 
   {
@@ -103,16 +118,6 @@ export const projectsData = [
     tags: ["Feature Article", "Gadget Review", "Tech", "Review Article"],
     imageUrl: tecnoImg,
     link: "https://viserx.com/blog/software-development/what-is-vibe-coading",
-  },
-
-  {
-    title:
-      "How to Choose the Right Plastic Cake Slice Container for Your Needs",
-    description:
-      "It's a detailed review article that doesn't only describe different features of a phone in details but also compares it to other market dominators by key funtionalities.",
-    tags: ["Feature Article", "Gadget Review", "Tech", "Review Article"],
-    imageUrl: plasticImg,
-    link: "https://thedoublewave.com/blogs/blog-articles/choose-the-right-plastic-cake-slice-container-for-your-needs?srsltid=AfmBOopOaLpOyf8Y2ZEr4ka_sc8pvM2fmJYRbZ8KucPAczxy0hUE2OBp",
   },
 
   {
