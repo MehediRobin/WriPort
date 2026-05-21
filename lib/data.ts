@@ -3,7 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
-import unbImg from "@/public/UNB.png";
 import tecnoImg from "@/public/tecno.png";
 import facetedImg from "@/public/faceted.png";
 import assetImg from "@/public/asset.png";
@@ -15,6 +14,7 @@ import whcImg from "@/public/whc.png";
 import unImg from "@/public/unb.jpg";
 import viserImg from "@/public/viserx.png";
 import bbImg from "@/public/bb.png";
+import eloyImg from "@/public/eloy.jpg";
 
 export const links = [
   {
@@ -36,6 +36,33 @@ export const links = [
   {
     name: "Experience",
     hash: "#experience",
+  },
+] as const;
+
+export const imageData = [
+  {
+    name: "UNB",
+    img: unImg,
+  },
+  {
+    name: "UNB",
+    img: bbImg,
+  },
+  {
+    name: "UNB",
+    img: viserImg,
+  },
+  {
+    name: "UNB",
+    img: cpImg,
+  },
+  {
+    name: "UNB",
+    img: whcImg,
+  },
+  {
+    name: "Eloy Digital",
+    img: eloyImg,
   },
 ] as const;
 
@@ -148,15 +175,6 @@ export const projectsData = [
     tags: ["Feature Article", "Gadget Review", "Tech", "Review Article"],
     imageUrl: tecnoImg,
     link: "https://unb.com.bd/category/Tech/tecno-phantom-v-fold-2-review-pros-cons-and-price-in-bangladesh/154984",
-  },
-
-  {
-    title: "Featured Article on Gaming",
-    description:
-      "Writing articles on games demands writers to understand hypes and have abilities to engage gamers and enthusiasts.",
-    tags: ["Feature Article", "Listing Article", "Tech", "Gaming"],
-    imageUrl: unbImg,
-    link: "https://unb.com.bd/category/Tech/february-2025-video-game-releases-top-titles-you-cant-miss/151328",
   },
 ] as const;
 

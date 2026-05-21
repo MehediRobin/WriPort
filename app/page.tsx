@@ -3,6 +3,7 @@ import About from "@/components/about";
 import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import Intro from "@/components/intro";
+import Marquees from "@/components/marquee";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
@@ -19,6 +20,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Marquees />
       <Footer />
     </main>
   );
